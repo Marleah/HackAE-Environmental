@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+  <title>Superhero</title>
+  <style>
+    body {
+      text-align: center;
+      background-color: rgb(245,222,179);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: Arial;
+    }
+    header{
+      font-size: 36px;
+      font-family: Copperplate;
+      color: rgb(165,42,42);
+      background-color: rgb(222,184,135);
+      padding: 20px;
+      text-align: left;
+
+    }
+    h1 {
+      font-size: 40px;
+    }
+
+    p{
+      font-size: 45px;
+      font-family: Palatino;
+      color: rgb(160,82,45);
+
+    }
+
+    div{
+      text-align: center;
+      padding-top: 40px;
+    }
+    input {
+      border: 0;
+      padding: 20px;
+      width: 500px;
+      font-size: 25px;
+    }
+    input[type="submit"] {
+      width: 150px;
+      height: 30px;
+      font-size: 25px;
+      background: red;
+      color: white;
+      padding-top: 1px;
+    }
+    form{
+      font-size: 23px;
+      padding: 10px;
+    }
+    input[type="text"] {
+      margin: 8px 0;
+      border-radius: 10px;
+      border: 2px solid #DEB887;
+      padding: 20px;
+      width: 500px;
+      height: 20px;
+    }
+    input[placeholder]{
+      font-size: 18px;
+    }
+
+    img{
+      border-radius: 50%;
+      border: 2px solid #DEB887;
+
+    }
+    a:link{
+      color: rgb(165,42,42);
+    }
+    a:visited{
+      color: rgb(165,42,42);
+    }
+    a:hover{
+      color: rgb(0,0,0);
+    }
+    a:link{
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+<body>
+  <header><a href="file:///Users/Benjamin/Desktop/webpgScratch.html"><b>Superhero</b></a>
+    <a href="file:///Users/Benjamin/Desktop/webpgScratch.html">
+    <img src="https://thumbs.dreamstime.com/x/man-hugging-teddy-bear-eyes-closed-21620667.jpg" align="right" style="width:50px;height:50px;">
+  </a>
+  </header>
+  <div>
+
+  </div>
+  <p><b>Hello, Johnny Appleseed!</b></p>
+  <form action="/", method="POST">
+        <label>Where you at, buddy?<br></label>
+        <input class="form-control input-lg" type="text" name="address" placeholder="Ex. 123 street">
+        <br>
+        <label>What you need, bruh?<br></label>
+        <input class="form-control input-lg" type="text" name="description" placeholder="Ex. Climbing up stairs">
+        <br>
+        <label>Any additional comments?<br></label>
+        <input class="form-control input-lg" type="text" name="extraComments" placeholder="Ex. I'm in a wheelchair">
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+</body>
